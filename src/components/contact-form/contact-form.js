@@ -43,7 +43,7 @@ class ContactForm extends Component {
     const emailData = {
       formName,
       formPhone,
-      authorEmail: contactFormAuthor.email,
+      authorEmail: contactFormAuthor ? contactFormAuthor.email : '',
       formLabel,
       pageLocation
     }
